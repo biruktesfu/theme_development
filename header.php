@@ -7,7 +7,9 @@
     <?php wp_head(); ?>
 
     <link href="bootstrap.min.css" rel="stylesheet">
+    hgkj
 
+    
 </head>
 
 

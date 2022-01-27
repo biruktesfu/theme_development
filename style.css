@@ -5,3 +5,7 @@ Description: Custom theme, Nav
 Author: 
 Author URL: 
 */
+
+body{
+    background-color: rgb(95, 115, 196);
+}
