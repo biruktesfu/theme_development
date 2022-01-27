@@ -19,9 +19,9 @@ function theme_js()
 }
 add_action('wp_enqueue_scripts', 'theme_js');
 
-function include_jquery()
+function theme_jquery()
 {
     wp_deregister_script('jquery');
-    wp_enqueue_script('jquery', get_template_directory_uri(). '/js/jquery-3.6.0.min.js', 1,true);
+    wp_enqueue_script('jquery', get_template_directory_uri(). '/js/jquery-3.6.0.min.js', '', 1,true);
 }
     add_action('wp_enqueue_scripts', 'theme_jquery');
