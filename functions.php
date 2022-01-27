@@ -19,6 +19,10 @@ function theme_js()
 }
 add_action('wp_enqueue_scripts', 'theme_js');
 
+
+
+
+
 function theme_jquery()
 {
     wp_deregister_script('jquery');
