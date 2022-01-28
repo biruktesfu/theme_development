@@ -3,17 +3,15 @@ Theme Name : Ocean
 Version: 1.0
 Description: Custom theme, Nav
 Author: 
-Author URL: 
+Author URL: http://example.com
 */
 
-body{
-    background-color: rgb(199, 208, 195);   
-    margin-left:20%;
-    margin-right:20%;
+body{  
+    margin-left:15%;
+    margin-right:15%;
 }
 
 header{
-    background:white;
     width:100%;
     height:100px;
 }
@@ -24,7 +22,7 @@ header{
 
 .container{
     text-align: center;
-    background-color:rgb(198, 198, 198);
+    background-color:rgb(236, 236, 236);
     padding-left:2%;
     padding-right:2%;
 }
