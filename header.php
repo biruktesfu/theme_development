@@ -6,7 +6,7 @@
 
     <?php wp_head(); ?>
 
-    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
 
     
 </head>
@@ -14,14 +14,16 @@
 
 <body <?php body_class(); ?> >
     
-<header id="masthead" class="site-header"> 
-    <nav class="navbar navbar-expand-lg navbar-light"> 
-        <div class="container"> 
-            <a class="navbar-brand" href="">Travel</a> 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
-            <span class="navbar-toggler-icon"></span> 
-            </button> 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent"> <?php wp_nav_menu( 
+<header class="sticky-top"> 
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item ">
+      <?php wp_nav_menu( 
                 array( 
                         'theme_location' => 'top-menu', 
                         'menu_id' => 'primary-menu', 
@@ -29,9 +31,17 @@
                         'menu_class'=>'navbar-nav' 
                     ) 
                 ); ?> 
+      </li>
 
-                </div> 
-        </div> 
-    </nav> 
+    </ul>
+  </div>
+</nav>
+
+
+
+
+
+ 
+    
 </header>
 

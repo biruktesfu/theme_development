@@ -1,5 +1,5 @@
 /*
-Theme Name : Ocean
+Theme Name : Trousim Travel
 Version: 1.0
 Description: Custom theme, Nav
 Author: 
@@ -7,22 +7,54 @@ Author URL: http://example.com
 */
 
 body{  
-    margin-left:15%;
-    margin-right:15%;
+    margin-left:20%;
+    margin-right:20%;
 }
 
 header{
+    background-color:rgb(236, 236, 236);
     width:100%;
     height:100px;
-}
-
-#primary-menu{
-    text-decoration: none;
-}
-
-.container{
     text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 23px;
+
+    
+}
+.ms-auto ul li a{
+  padding-right: 16px;
+	display:block;
+	text-decoration:none;
+	color:rgb(55, 145, 67);
+  align-self: right;
+} 
+
+.ms-auto ul li a:hover{
+  color:black;
+  transition: 0.5s;
+}
+.container{
+    
     background-color:rgb(236, 236, 236);
     padding-left:2%;
     padding-right:2%;
+}
+
+h1{
+    align-self:"left";
+}
+
+.contents{
+    text-align: center;
+
+}
+
+.more_width_td{
+    width:50%;
+    padding-right:10px;
+}
+
+ol ,ul {
+  list-style:none;
 }
