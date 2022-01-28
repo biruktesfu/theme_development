@@ -7,7 +7,9 @@ Author URL:
 */
 
 body{
-    background-color: rgb(172, 191, 164);
+    background-color: rgb(199, 208, 195);   
+    margin-left:20%;
+    margin-right:20%;
 }
 
 header{
@@ -16,3 +18,13 @@ header{
     height:100px;
 }
 
+#primary-menu{
+    text-decoration: none;
+}
+
+.container{
+    text-align: center;
+    background-color:rgb(198, 198, 198);
+    padding-left:2%;
+    padding-right:2%;
+}
