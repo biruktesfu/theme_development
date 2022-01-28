@@ -1,7 +1,7 @@
 <?php
 function theme_stylesheets()
 {
-    wp_register_style('bootstrap', get_template_directory_uri().'assets/css/bootstrap.min.css', array(), false, 'all');
+    wp_register_style('bootstrap', get_template_directory_uri()."assets/css/bootstrap.css", array(), false, 'all');
     wp_enqueue_style('bootstrap');
 
     wp_register_style('style', get_template_directory_uri()."/style.css", array(), false, 'all');
@@ -48,3 +48,4 @@ function register_navwalker(){
     require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
 }
 add_action( 'after_setup_theme', 'register_navwalker' );
+

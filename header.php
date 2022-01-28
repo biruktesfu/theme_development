@@ -6,13 +6,14 @@
 
     <?php wp_head(); ?>
 
-    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
     
 </head>
 
-
 <body <?php body_class(); ?> >
+
+ 
     
 <header id="masthead" class="site-header"> 
     <nav class="navbar navbar-expand-lg navbar-light"> 
