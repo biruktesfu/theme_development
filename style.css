@@ -7,12 +7,16 @@ Author URL:
 */
 
 body{
-    background-color: rgb(172, 191, 164);
+    background-color: rgb(199, 208, 195);
 }
 
 header{
     background:white;
     width:100%;
     height:100px;
+}
+
+#primary-menu{
+    text-decoration: none;
 }
 
